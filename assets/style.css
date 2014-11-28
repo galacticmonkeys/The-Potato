@@ -1,0 +1,332 @@
+a {
+color: inherit;
+text-decoration: none;
+}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    background: white;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top: 64px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.section-home {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.nested-box {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding: 40px 0 40px;
+    overflow: hidden;
+    font-weight: 300;
+}
+
+.pricing-text {
+    width: 400px;
+    display: inline;
+    float: left;
+}
+
+.pricing-img {
+    height: auto;
+    width: 200px;
+    float: left;
+    margin-right: 25px
+}
+
+.pricing-text-box {
+padding-left: 200px;
+width: 180px;
+}
+
+.title {
+    font-variant: small-caps;
+    font-weight: 200;
+    font-size: 32px;
+    text-align: center;
+}
+
+#faq-title {
+    font-variant: small-caps;
+    font-size: 25px;
+    margin-top: 110px;
+    display: inline-block;
+    font-weight: 200;
+}
+
+.favorite {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 200;
+}
+
+.faq-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.nested-box-title {
+    padding-left: 60px;
+    font-variant: small-caps;
+    font-weight: 300;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.button {
+    background: white;
+    float: left;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+#submission-button {
+    margin-top: 20px;
+}
+select {
+    border: 2px solid black;
+    padding: 7px;
+    padding-left: 5px;
+    background: transparent;
+    margin: 0px;
+    margin-bottom: 15px;
+    width: 460px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+.text {
+    font-size: 12px;
+    padding-left: 261px;
+    padding-top: 20px;
+
+}
+
+#topbar-wrapper li a {
+    display: inline;
+    float: right;
+    margin-left: 32px;
+    margin-right: 32px;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: 200;
+    font-variant: small-caps;
+}
+
+#topbar-wrapper-active li a {
+    font-size: 25;
+    font-variant: normal;
+    font-weight: 300;
+}
+
+#indicator {
+    border-bottom: 15px solid rgba(220,220,212,1);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    width: 0;
+    height: 0;
+    left: 750px;
+    top: 40px;
+    position: absolute;
+} 
+
+
+#topbar-wrapper li { 
+    display: inline;
+} 
+
+.nested-box img {
+    height: auto;
+    width: 200px;
+    float: left;
+}
+
+
+#potato img {
+    width: 526px;
+    height: auto;
+    position: absolute;
+    bottom: 8%;
+    left: 9%;
+}
+
+
+#topbar {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    top: 0%;
+    z-index: 99;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+#topbar-wrapper {
+    margin-right: 3%;
+    position: relative;
+    list-style: none;
+}
+
+
+.topbar-item {
+    display: inline;
+    float: right;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: 300;
+}
+
+#hero {
+    position: absolute;
+    color: black;
+    bottom: 90px;
+    right: 150px;
+    text-align: right;
+    font-weight: 100;
+}
+
+#subheading {
+    font-size: 40px;
+}
+#heading {
+    font-size: 75px;
+}
+
+#modal-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    display: none;
+}
+
+#modal-overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    background: whitesmoke;
+}
+
+#modal-box {
+    width: 600px;
+    height: auto;
+    background: white;
+    z-index: 100;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#modal-content {
+    margin-left: 70;
+    margin-right: 70;
+    font-size: smaller;
+}
+
+.button-in-modal {
+    height: 35px;
+    width: 100px;
+    color: black;
+    font-weight: normal;
+    float: left;
+    margin-left: 70px;
+    cursor: pointer;
+    border: 2px solid black;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#login {
+    color: black;
+    padding-bottom: 18px;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-left: 70;
+    margin-top: 25px;
+}
+
+#click{
+    position: relative;
+    float: right;
+    background-color: transparent;
+    width: 50px;
+    height: 40px;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.searchbar {
+    position: absolute;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 7px;
+    background: transparent;
+    margin: 0px;
+    line-height: 2em;
+    margin-bottom: 15px;
+    width: 800px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+
+.text-box {
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 7px;
+    background: transparent;
+    margin: 0px;
+    margin-bottom: 15px;
+    width: 460px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.text-box::-webkit-input-placeholder  {
+    color: grey;
+    font-weight: 300;
+}
+
+
+.searchbar::-webkit-input-placeholder {
+    color: #CACACC;
+    font-weight: 300;
+    font-size: 20;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.inside {
+    margin-top: 7px;
+    margin-left: 25px;
+
+}
