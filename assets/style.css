@@ -274,15 +274,16 @@ select {
 }
 
 #click{
-    position: relative;
-    float: right;
-    background-color: transparent;
-    width: 50px;
-    height: 40px;
-    margin-top: 25px;
     cursor: pointer;
-    margin-right: 10px;
-
+    display: block;
+    float: right;
+    z-index: 3;
+    position: absolute;
+    top: 148;
+    right: 9;
+    width: 50;
+    background-color: transparent;
+    height: 40;
 }
 .searchbar {
     position: absolute;
