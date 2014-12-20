@@ -1,0 +1,38 @@
+[1mdiff --cc index.html[m
+[1mindex 15c3dfb,2e55fc1..0000000[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@@ -58,27 -59,12 +58,31 @@@[m
+  				<div id="heading">The Potato</div>[m
+  			</div>[m
+  		</section>[m
+[31m -[m
+[32m +		[m
+[32m +		<section class = "section" id = "about" style = "padding-top: 0;">[m
+[32m +			[m
+[32m +			<div class = "nested-box"> [m
+[32m +				<div id = 'faq-title' style="margin-top: 25px;">About</div>[m
+[32m +				<br><br>[m
+[32m +				The Potato is revolutionizing the way you think about food. It's more than a potato. It's The Potato.[m
+[32m +				Naturally non-perishable, this little root can be stored and prepared anywhere, anytime.[m
+[32m +				With its inconspicuous, intelligent packaging, The Potato can be taken anywhere your life takes you.[m
+[32m +				In fact, calorie per dollar, it is one of the most efficient goods on the market, leaving competitors such as maize, wheat, and rice[m
+[32m +				in the dust. [m
+[32m +				Convenient and compact, it's no wonder that, with exactly $0 spent on advertising, The Potato has already made its way into the homes of billions world wide. [m
+[32m +				<br><br>[m
+[32m +				Try for yourself what your friends already know. Join The Potato revolution today.[m
+[32m +			</div>[m
+[32m +		</section>[m
+  		<section class = "section" id = "customers">[m
+[32m++<<<<<<< HEAD[m
+[32m +		<div class= "title">Featured</div>[m
+[32m++=======[m
+[32m+ 			<div class= "title">Featured Customers</div>[m
+[32m++>>>>>>> master[m
+              <div class = "nested-box">[m
+              	<div class = "nested-box-title"> Lay's </div>[m
+[31m- 				<img src = "http://upload.wikimedia.org/wikipedia/en/e/e7/Mid_products_lays.png" alt = "Lays">[m
+[32m+ 				<img src = "assets/lays.jpg" alt = "Lays">[m
+  				<div class = "text">[m
+  					<div class = 'favorite'> [m
+  					Favorite thing about The Potato: "This product is the core of our entire business. Our company could not exist without it."[m
