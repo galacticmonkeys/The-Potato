@@ -45,48 +45,35 @@ $(".button-in-modal").hover(function() {
 	}
 );
 
-$(function () {
-	var $el;
-	$("#topbar-wrapper li a").hover(
-			function() {
-				$el = $(this)
-				$el.css("font-weight", "500");
-			},
-			function() {
-				$el = $(this)
-				$el.css("font-weight", "300");
-			}
-		);
-});
+$("#topbar-wrapper li a").hover(
+    function() {
+      $(this).css("font-weight", "500");
+    },
+    function() {
+      $(this).css("font-weight", "300");
+    }
+  );
 
-$(function() {
-    var $el, leftPos, unicorn,
-        $mainNav = $("#topbar-wrapper");
-    
-    $mainNav.append("<li id='indicator'></li>");
-    var $magicLine = $("#indicator");
-    unicorn = $(".current_page_item a").position().left;
-    unicorn += 55 + $(".current_page_item a").width() / 2;
 
-    $magicLine
-        .css("left", unicorn)
-        .data("origLeft", $magicLine.position().left)
+$("#topbar-wrapper").append("<li id='indicator'></li>");
 
-    $("#topbar-wrapper li a")
-    	.click(function() {
-	        $el = $(this);
-	        leftPos = $el.position().left; 
-	        leftPos += 20 + $el.width() / 2;
-	        $magicLine.stop().animate({
-	            left: leftPos,
-	        });
-		    $('html, body').animate({
-			      scrollTop: $( $.attr(this, 'href')).offset().top
-			    }, 750);
-		    $('body').css("overflow", "initial");
-		     
-    	})
-});
+var $magicLine = $("#indicator");
+$magicLine.css('display', 'none');
+$magicLine.data("origLeft", $magicLine.position().left)
 
+$("#topbar-wrapper li a")
+  .click(function() {
+    $magicLine.css('display', 'inherit')
+      var $el = $(this);
+      var leftPos = $el.position().left; 
+      leftPos += 20 + $el.width() / 2;
+      $magicLine.stop().animate({
+          left: leftPos,
+      });
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href')).offset().top
+      }, 750);
+    $('body').css("overflow", "initial");
+     
+  })
 })
-/**/
